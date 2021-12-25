@@ -9,10 +9,10 @@
 <body>
     <form action="/add" method="post">
         @csrf
-        <input type="text" name="fname" id="fname" placeholder="First Name"><br><br>
-        <input type="text" name="lname" id="lname" placeholder="Last Name"><br><br>
-        <input type="text" name="email" id="email" placeholder="Email Address"><br><br>
-        <input type="password" name="password" id="password" placeholder="Password"><br><br>
+        <input type="text" name="fname" id="fname" placeholder="Enter your First Name"><br><br>
+        <input type="text" name="lname" id="lname" placeholder="Enter your Last Name"><br><br>
+        <input type="text" name="email" id="email" placeholder="Enter your Email Address"><br><br>
+        <input type="password" name="password" id="password" placeholder="Enter your Password"><br><br>
         <input type="submit" value="Register"><br><br>
     </form>
 
